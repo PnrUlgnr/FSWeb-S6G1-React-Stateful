@@ -29044,7 +29044,7 @@ function Input() {
   /* ADIM 1 */
   var _useState = (0, _react.useState)(""),
     _useState2 = _slicedToArray(_useState, 2),
-    inputDeğeri = _useState2[0],
+    input = _useState2[0],
     setInputDeğeri = _useState2[1];
   var inputuDeğiştir = function inputuDeğiştir(evt) {
     // When the input changes, its whole value can be found inside the event object.
@@ -29223,22 +29223,22 @@ function Dondurucu() {
   /* ADIM 1 */
   var _useState = (0, _react.useState)(true),
     _useState2 = _slicedToArray(_useState, 2),
-    setdöndürücüAcik = _useState2[0],
-    SetdöndürücüAcik = _useState2[1];
+    döndürücüAcik = _useState2[0],
+    setDöndürücüAcik = _useState2[1];
   var toggleDondurucu = function toggleDondurucu() {
-    setDöndürücüAcik(!döndürücüAçik);
+    setDöndürücüAcik(!döndürücüAcik);
     /* ADIM 4 */
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "widget-spinner container"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "D\xF6nd\xFCr\xFCc\xFC"), döndürücüAçik && /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "D\xF6nd\xFCr\xFCc\xFC"), döndürücüAcik && /*#__PURE__*/_react.default.createElement("div", {
     id: "d\xF6nd\xFCr\xFCc\xFC",
     className: "spinner"
   }, "--+--") /* ADIM 2 */, /*#__PURE__*/_react.default.createElement("button", {
     id: "toggleDondurucu",
     onClick: toggleDondurucu
-  }, "Gizle ", döndürücüAçık == true ? "Gizle" : "Göster"));
+  }, "Gizle ", döndürücüAcik == true ? "Gizle" : "Göster"));
 }
 },{"react":"../node_modules/react/index.js"}],"components/Kareler.js":[function(require,module,exports) {
 "use strict";
@@ -29466,7 +29466,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49560" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55304" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

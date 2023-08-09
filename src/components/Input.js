@@ -37,7 +37,7 @@ import React ,{useState} from 'react'; /* ADIM 0 */
 
 export default function Input() {
   /* ADIM 1 */
-  const [inputDeğeri,setInputDeğeri]= useState("");
+  const [input,setInputDeğeri]= useState("");
 	
   const inputuDeğiştir = evt => {
     // When the input changes, its whole value can be found inside the event object.

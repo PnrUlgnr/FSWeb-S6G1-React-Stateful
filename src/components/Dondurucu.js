@@ -39,9 +39,9 @@ import React, {useState} from 'react'; /* STEP 0 */
 
 export default function Dondurucu() {
 /* ADIM 1 */
-const [setdöndürücüAcik, SetdöndürücüAcik] =useState(true);
+const [döndürücüAcik, setDöndürücüAcik] =useState(true);
   const toggleDondurucu = () => {
-    setDöndürücüAcik(!döndürücüAçik)
+    setDöndürücüAcik(!döndürücüAcik)
   /* ADIM 4 */
   };
 
@@ -49,10 +49,10 @@ const [setdöndürücüAcik, SetdöndürücüAcik] =useState(true);
     <div className='widget-spinner container'>
       <h2>Döndürücü</h2>
       {
-        döndürücüAçik && <div id='döndürücü' className='spinner'>--+--</div> /* ADIM 2 */
+        döndürücüAcik && <div id='döndürücü' className='spinner'>--+--</div> /* ADIM 2 */
       }
       <button id='toggleDondurucu' onClick={toggleDondurucu}>
-         Gizle {döndürücüAçık==true ? "Gizle" :"Göster"}
+         Gizle {döndürücüAcik==true ? "Gizle" :"Göster"}
       </button>
     </div>
   );
